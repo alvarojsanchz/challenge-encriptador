@@ -70,10 +70,12 @@ copiar.addEventListener('click', () => {
     mostrarTexto.innerHTML = "Ningún mensaje fue encontrado"
     muneco.style.display = "";
     infoTexto.style.display = "";
-    encryptedText.classList.remove("show-text")
-    encryptedText.classList.add("encrypted-text")
-    copiar.classList.remove("show-btn")
-    copiar.classList.add("hidden-btn")
+    textoInput.value = "";
+    textoInput.placeholder = "Ingrese el texto aquí";
+    encryptedText.classList.remove("show-text");
+    encryptedText.classList.add("encrypted-text");
+    copiar.classList.remove("show-btn");
+    copiar.classList.add("hidden-btn");
 })
 
 copiarMovil.addEventListener('click', () => {
@@ -81,6 +83,8 @@ copiarMovil.addEventListener('click', () => {
     navigator.clipboard.writeText(texto)
     swal("", "Copiado en el portapapeles!", "success");
 
+    textoInput.value = "";
+    textoInput.placeholder = "Ingrese el texto aquí";
     mostrarTextoMovil.innerHTML = "Ningún mensaje fue encontrado"
     infoTextoMovil.style.display = ""
     copiarMovil.classList.remove("show-btn-movil")
