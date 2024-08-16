@@ -1,9 +1,9 @@
 <h1>Challenge: Encriptador de Texto 🕵️</h1>
 
+<img width="1430" alt="encriptador-texto-screenshot" src="https://github.com/user-attachments/assets/fe5c5a7a-ac9d-467d-b8ec-e3171ff53ea8">
+
 <h2>Tecnologías Utilizadas</h2>
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" /> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
-
-
 
 <h2>Descripción 📋</h2>
 Este proyecto es un encriptador de texto desarrollado como parte del curso principiante en programación de Alura Latam. La aplicación permite encriptar y desencriptar texto basado en reglas específicas de sustitución de caracteres. Está diseñado para ofrecer una interfaz sencilla e intuitiva tanto en dispositivos de escritorio como en móviles.
